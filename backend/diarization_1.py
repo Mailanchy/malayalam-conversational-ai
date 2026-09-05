@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 import wave
 import numpy as np
 import sounddevice as sd

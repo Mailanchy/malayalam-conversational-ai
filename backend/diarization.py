@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 def main(audio_file_path="firstRecord.wav"):
     import wave
     import numpy as np
